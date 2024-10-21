@@ -1,0 +1,130 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600&display=swap');
+ body {
+            font-family: "open sans",Arial, sans-serif;
+            margin:10px;
+            padding: 0;
+            background-color: #f0f0f0;
+           
+           
+  /* Set the background image URL */
+  background-image: url('https://ik.imagekit.io/Vijay69/blob_UwUoa8aV0H.png?updatedAt=1695639229892');
+
+  /* Set background size to cover the entire element */
+  background-size: cover;
+
+  /* Set background repeat to no-repeat to prevent repeating the image */
+  background-repeat: no-repeat;
+
+
+        }
+
+        .container {
+            
+            border-radius: 5px;
+            padding: 20px;
+            box-shadow: 0 0 60px rgb(0 0 0 / 17%);
+           
+            text-align: center;
+        }
+
+        h1 {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            border-radius: 5px 5px 0 0;
+            margin: 0;
+        }
+
+        .form-container {
+            margin-top: 20px;
+        }
+
+        #camera-feed {
+               width: 100%;
+    max-width: 640px;
+    margin: auto;
+    display:none;
+        }
+
+        input[type="file"] {
+            display: none;
+        }
+
+        label {
+            background-color: #333;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button {
+            background-color: #333;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:disabled {
+            background-color: #aaa;
+            cursor: not-allowed;
+        }
+
+        .cancel-button {
+            background-color: #ff5555;
+            padding: 5px 10px;
+            border: none;
+            border-radius: 50%;
+            color: white;
+            cursor: pointer;
+        }
+        .pickimage {
+    border: 1px dashed #cfcfff;
+    background: #f8f8ff;
+    padding:10px;
+}
+
+.section_heading{
+text-align:left;
+font-size:15px;
+}
+.section_headinglabel
+{ margin:0}
+        #result{background:#fff;}
+       .choosebtn {
+    background: #5f52af;
+    font-size: 15px;
+    color: #fff;
+    font-weight: bold;
+}
+.choosebtn:hover{
+	background:#33277c;
+}
+.choosebtn2
+{
+	 font-size: 15px;
+    color: #8989a3;
+    font-weight: bold;
+	background:#d2d2e7;
+}
+.green{border:2px solid green}
+.cancel-button{}
+#result.uploadstatus{display:block !important}
+.spinner-container {
+    position: fixed;
+    z-index: 9999;
+    background: rgba(255, 255, 255, 0.5); /* You can adjust the background color and opacity as needed */
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+apps-fileview.texmex_20231005.00_p0
+welcome.css
+Displaying welcome.css.
